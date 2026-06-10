@@ -7,6 +7,7 @@ public class Plus {
         s += 10;
         s += "\n";
         s += 'a';
+        // In this type of addition any time new string is created so it increase the time complexity and size also
         System.out.println(s);
         System.out.println("shivam"+9+20); // string + integer = string
         System.out.println("shivam"+(9+20)); // string + integer = string
