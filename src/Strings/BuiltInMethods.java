@@ -14,5 +14,9 @@ public class BuiltInMethods {
             System.out.println("happy");
 
         System.out.println(t.startsWith("ha"));
+
+        String str = "762837";
+        int n = Integer.parseInt(str);
+        System.out.println(n+1);
     }
 }
