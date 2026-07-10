@@ -1,5 +1,7 @@
 package Strings;
 
+import java.util.Scanner;
+
 public class StringBuilders {
     static void main(String[] args) {
         // in this type of addition no other string is formed it gives the capacity to the first string
@@ -14,6 +16,7 @@ public class StringBuilders {
 //        s1.append("yadav");
 //        System.out.println(s1);
 
+        Scanner sc = new Scanner(System.in);
         StringBuilder s2 = new StringBuilder();
         System.out.println(s2.length()+" "+s2.capacity());
         s2.append("Tushar");
@@ -23,6 +26,9 @@ public class StringBuilders {
         System.out.println(s2);
         String t = s2.toString();
         System.out.println(t);
+
+//        StringBuilders sb = new StringBuilders(sc.nextLine());
+//        System.out.println(sb);
 
     }
 }
